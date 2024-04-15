@@ -149,43 +149,6 @@ td {
 
 }
 
-.backCircle {
-    border-radius: 50%;
-    background-color: #40A2D8;
-    position: relative;
-    transform: scale(.4);
-    pointer-events: auto;
-    transition: transform .3s ease-in-out;
-    box-shadow: 0 0 10px 5px rgba(90, 148, 235, 0.2);
-}
-
-.kiddie {
-    height: 50vh;
-    width: 50vh;
-    transform: scale(2);
-    pointer-events: none;
-    transition: transform .3s ease-in-out;
-
-}
-
-.backCircle:hover {
-    transform: scale(1);
-}
-
-.backCircle:hover .kiddie {
-    transform: scale(1);
-}
-
-.divbackdrop {
-    margin: 0%;
-    padding: 0;
-    background-color: #0B60B0;
-    box-shadow: 0 0 40px 10px rgba(90, 148, 235, 0.2);
-    display: inline-block;
-    border-radius: 2vh;
-    padding: 3vw;
-}
-
 #unveilscreen {
     position: absolute;
     top: -24%;
