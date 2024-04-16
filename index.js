@@ -1,9 +1,9 @@
-if (document.getElementById("Poemas") != null) {
-    document.getElementById("Poemas").addEventListener("click", () => {
+if (document.getElementById("Instalações") != null) {
+    document.getElementById("Instalações").addEventListener("click", () => {
         document.getElementById('coverwholescreenUn').classList.add('coverwholescreen');
         setTimeout(function () {
             // Redirect to a different HTML page
-            window.location.href = 'poemas.html';
+            window.location.href = 'Instalações.html';
         }, 1000);
     })
 }
