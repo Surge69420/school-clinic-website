@@ -190,3 +190,12 @@ td {
         transform: translateY(-100%);
     }
 }
+.divbackdrop {
+    margin: 0%;
+    padding: 0;
+    background-color: #0B60B0;
+    box-shadow: 0 0 40px 10px rgba(90, 148, 235, 0.2);
+    display: inline-block;
+    border-radius: 2vh;
+    padding: 3vw;
+}
